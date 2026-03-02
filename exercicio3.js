@@ -1,6 +1,4 @@
-const precos = [29.9, 50.0, 10.5, 100.0];
+const nota = 7;
+const situacao = nota >= 7 ? 'Aprovado' : nota >= 5 ? 'Recuperação' : 'Reprovado';
 
-// Seu código aqui
-const total = precos.reduce((acumulador, preco) => acumulador + preco, 0);
-
-console.log(total);
+console.log(situacao);

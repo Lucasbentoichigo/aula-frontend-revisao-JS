@@ -1,10 +1,5 @@
-const usuarios = [
-  { id: 1, nome: "João", email: "joao@email.com" },
-  { id: 2, nome: "Maria", email: "maria@email.com" },
-  { id: 3, nome: "José", email: "jose@email.com" }
-];
+const valorCompra = 120;
 
-// Seu código aqui
-const nomesUsuarios = usuarios.map(usuario => usuario.nome)
+const valorFinal = valorCompra >= 100 ? valorCompra * 0.9 : valorCompra;
 
-console.log(nomesUsuarios);
+console.log(`Valor final da compra: R$ ${valorFinal.toFixed(2)}`);

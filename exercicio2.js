@@ -1,6 +1,4 @@
-const numeros = [12, 5, 8, 130, 44, 3, 9];
+const numero = 7;
+const resultado = numero % 2 === 0 ? "Par" : "Ímpar";
 
-// Seu código aqui
-const numerosPares = numeros.filter(numero => numero % 2 === 0)
-
-console.log(numerosPares);
+console.log(resultado);

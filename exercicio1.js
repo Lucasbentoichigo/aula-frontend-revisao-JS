@@ -1,6 +1,4 @@
-const nomes = ["alice", "bruno", "carla", "daniel"];
+let idade = 18;
+let resultado = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
 
-// Seu código aqui
-const nomesMaiusculos = nomes.map(nome => nome.toLocaleUpperCase());
-
-console.log(nomesMaiusculos);
+console.log(resultado);
